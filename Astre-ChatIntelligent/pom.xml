@@ -15,12 +15,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
 
     <!-- JUnit 5 -->
     <dependency>
@@ -65,27 +59,6 @@
 
     <!-- JUnit 4（ @RunWith） -->
       <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-        <scope>test</scope>
-      </dependency>
-
-      <!-- Cucumber Core -->
-      <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-java</artifactId>
-        <version>7.11.1</version>
-      </dependency>
-
-      <!-- Cucumber JUnit（ Cucumber） -->
-      <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-junit</artifactId>
-        <version>7.11.1</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
           <groupId>junit</groupId>
           <artifactId>junit</artifactId>
           <version>4.13.2</version>
@@ -106,4 +79,6 @@
 
 
 </project>
+
+
 
